@@ -22,6 +22,7 @@ fn main() {
             },
             Err(_err) => {
                 println!("{}", stringify!(err).red().bold());
+                println!("Done!")
             }
         }
     }
